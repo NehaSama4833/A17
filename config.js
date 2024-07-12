@@ -8,9 +8,9 @@ global.autoReadAll = process.env.AUTO_READ_ALL || false;
 global.antitags = process.env.ANTITAGS || true;
 
 // Auto functioner
-global.autoTyping = process.env.AUTO_TYPING || false;
-global.autoRecord = process.env.AUTO_RECORD || false;
-global.groupevent = process.env.GROUPEVENT || false;
+global.autoTyping = process.env.AUTO_TYPING || true;
+global.autoRecord = process.env.AUTO_RECORD || true;
+global.groupevent = process.env.GROUPEVENT || true;
 global.statusseen = process.env.STATUSSEEN || true;
 global.autoreadgc = process.env.AUTOREADGC || true;
 
@@ -36,7 +36,7 @@ global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["9
 global.OwnerName = process.env.OWNER_NAME || "Neha-Sama";
 global.BotName = process.env.BOT_NAME || "Natsu"
 global.packname = process.env.PACK_NAME || "Zoro";
-global.author = "By: Kai";
+global.author = "Sama";
 global.BotSourceCode = "https://github.com/Kai0071/A17";
 global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
 
